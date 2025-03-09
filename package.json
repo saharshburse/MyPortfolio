@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev",
-    "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "build": "next build",
+    "export": "next export"
+  
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
